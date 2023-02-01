@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ES-es">
+
+<head>
+    <title>Guitarra de Jairo</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="logo.png" rel="icon">
+</head>
+
+<body>
+    <h1>Datos para las inscripciones:</h1>
+    <form action="procesar-datos.php" method="post">
+    <p>En caso de buscar clases online rellenar solo primer formulario. En el caso de buscars clases presenciales rellenar ambos formularios.</p>
+        <fieldset>
+            <legend>Clases online</legend>
+            <br>
+            <label>Nombre: <input type="text" name="usuario"></label>
+            <br><br>
+            <label>Escoja su continente de procedencia:</label><select name="lista_seleccion">
+
+                <option value="Europa">Europa</option>
+                <option value="América">América</option>
+                <option value="África">África</option>
+                <option value="Oceanía">Oceanía</option>
+                <option value="Antártida">Antártida</option>
+                <option value="Asia">Asia</option>
+            </select></label>
+            <br><br>
+            <label>Comunidad Autónoma en la que vive:<select name="lista_seleccion">
+
+                    <option value="cat">Cataluña</option>
+                    <option value="gal">Galicia</option>
+                    <option value="pai">Pais Vasco</option>
+                    <option value="ast">Asturias</option>
+                    <option value="can">Cantabria</option>
+                    <option value="nav">Navarra</option>
+                    <option value="lar">La Rioja</option>
+                    <option value="cale">Castilla y León</option>
+                    <option value="ara">Aragón</option>
+                    <option value="comval">Comunidad Valenciana</option>
+                    <option value="isbal">Islas Baleares</option>
+                    <option value="ext">Extremadura</option>
+                    <option value="casma">Castilla la Mancha</option>
+                    <option value="mur">Murcia</option>
+                    <option value="can">Canarias</option>
+                    <option value="and">Andalucía</option>
+                    <option value="ceu">Ceuta</option>
+                    <option value="mel">Melila</option>
+                </select></label><br><br>
+            <label>Idioma que habla: <select name="idioma">
+                    <option value="español">Español</option>
+                    <option value="inglés">Inglés</option>
+                    <option value="catalán">Catalán</option>
+                    </select>
+            </label><br><br>
+            <label>Nº de teléfono: <input type="text" name="Codigopostal"></label>
+        </fieldset>
+        <fieldset>
+            <legend>Clases presenciales</legend>
+            <label>Qué tipo de clases buscas:
+                <select name="lista_de_seleccion">
+                    <option value="Secretaría">Clases de guitarra</option>
+                    <option value="Relaciones">Clases de solfeo</option>
+                    <option value="Diseño">Clases de producción musical</option>
+                </select></label>
+            <br><br>
+            <label>Municipio/Ciudad en el que vive: <input type="text" name="usuario"></label><br><br>
+            <label>Dirección: <input type="text" name="Direccion"></label>
+            <label>Código postal: <input type="text" name="Codigopostal"></label><br>
+            <label>Observaciones:<br><textarea name="area_texto" rows="5"
+                    cols="100">¿Algo que deba saber?</textarea></label>
+            
+        </fieldset>
+        <fieldset>
+            <legend>Finalizar el formulario:</legend>
+            <button type="reset">Resetear el formulario</button>
+            <button type="submit"><a href="./final.html">Enviar a Jairo</a></button>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
