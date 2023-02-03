@@ -1,0 +1,40 @@
+body {
+    font-size: 30px;
+    background: rgb(205, 244, 208);
+}
+
+ul {
+    color: rgb(62, 125, 104);
+    font-style: initial;
+}
+
+li {
+    color: rgb(17, 27, 1);
+    font-family: sans-serif;
+}
+h1 {
+    color: rgb(52, 134, 133);
+}
+
+a:link {
+    color: rgb(248, 4, 134);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgba(128, 144, 91, 0.322);
+}
+
+a:hover {
+    color: rgb(29, 131, 20);
+    font-weight: bold;
+}
+
+a:active {
+    color: rgb(86, 52, 6);
+    list-style-type: circle;
+}
+.clase1{
+    text-align: center;
+    text-decoration:dashed
+}
