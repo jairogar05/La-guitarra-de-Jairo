@@ -1,10 +1,12 @@
 body {
     font-size: 30px;
-    background: rgb(205, 244, 208);
+    background-image: url(zyro-image.png);
+    background-size: cover;
 }
 
+
 ul {
-    color: rgb(62, 125, 104);
+    color: rgb(242, 246, 244);
     font-style: initial;
 }
 
@@ -22,11 +24,11 @@ a:link {
 }
 
 a:visited {
-    color: rgba(128, 144, 91, 0.322);
+    color: rgb(246, 247, 241);
 }
 
 a:hover {
-    color: rgb(29, 131, 20);
+    color: rgb(234, 242, 233);
     font-weight: bold;
 }
 
@@ -39,6 +41,6 @@ a:active {
     text-decoration:dashed
 }
 .img{
-    width: 10;
+    width: 10cm;
     height:10cm;
 }

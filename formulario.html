@@ -11,7 +11,8 @@
 <body>
     <h1>Datos para las inscripciones:</h1>
     <form action="procesar-datos.php" method="post">
-    <p>En caso de buscar clases online rellenar solo primer formulario. En el caso de buscars clases presenciales rellenar ambos formularios.</p>
+        <p>En caso de buscar clases online rellenar solo primer formulario. En el caso de buscars clases presenciales
+            rellenar ambos formularios.</p>
         <fieldset>
             <legend>Clases online</legend>
             <br>
@@ -52,7 +53,7 @@
                     <option value="español">Español</option>
                     <option value="inglés">Inglés</option>
                     <option value="catalán">Catalán</option>
-                    </select>
+                </select>
             </label><br><br>
             <label>Nº de teléfono: <input type="text" name="Codigopostal"></label>
             <label>Edad: <input type="text" name="Edad"></label>
@@ -60,22 +61,21 @@
 
                 <option value="Hombre">Hombre</option>
                 <option value="Mujer">Mujer</option>
-        </fieldset>
-        <fieldset>
-            <legend>Clases presenciales</legend>
-            <label>Qué tipo de clases buscas:
+            </select><br><label>Qué tipo de clases buscas:
                 <select name="tipo de clases">
                     <option value="Guit">Clases de guitarra</option>
                     <option value="Sol">Clases de solfeo</option>
                     <option value="PM">Clases de producción musical</option>
                 </select></label>
-            <br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Clases presenciales</legend>
             <label>Municipio/Ciudad en el que vive: <input type="text" name="usuario"></label><br><br>
             <label>Dirección: <input type="text" name="Direccion"></label>
             <label>Código postal: <input type="text" name="Codigopostal"></label><br>
             <label>Observaciones:<br><textarea name="area_texto" rows="5"
-                    cols="100">¿Algo que deba saber?</textarea></label>
-            
+                    cols="100">¿Algo que deba saber? (Si quieres contactarme para fotografía decir aquí)</textarea></label>
+
         </fieldset>
         <fieldset>
             <legend>Finalizar el formulario:</legend>
