@@ -1,6 +1,6 @@
 body {
     font-size: 30px;
-    background-image: url(zyro-image.png);
+    background-image: url(./img/zyro-image.png);
     background-size: cover;
 }
 
@@ -43,4 +43,13 @@ a:active {
 .img{
     width: 10cm;
     height:10cm;
+}
+legend{
+    background-color: aqua;
+}
+fieldset{
+    background-color: rgb(6, 171, 171);
+}
+.clase2{
+    background-color: cadetblue;
 }

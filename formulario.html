@@ -10,15 +10,15 @@
 
 <body>
     <h1>Datos para las inscripciones:</h1>
-    <form action="procesar-datos.php" method="post">
-        <p>En caso de buscar clases online rellenar solo primer formulario. En el caso de buscars clases presenciales
+    <p>En caso de buscar clases online rellenar solo primer formulario. En el caso de buscars clases presenciales
             rellenar ambos formularios.</p>
+    <form action="procesar-datos.php" method="post">
         <fieldset>
             <legend>Clases online</legend>
 
-            <label>Nombre: <input type="text" name="usuario"></label>
+            <label>Nombre y apellidos: <input type="text" name="usuario"></label>
             <br><br>
-            <label>Escoja su continente de procedencia:</label><select name="lista_seleccion">
+            <label>Escoje tu continente de procedencia:</label><select name="lista_seleccion">
 
                 <option value="Europa">Europa</option>
                 <option value="América">América</option>
@@ -28,7 +28,7 @@
                 <option value="Asia">Asia</option>
             </select></label>
             <br><br>
-            <label>Comunidad Autónoma en la que vive:<select name="lista_seleccion">
+            <label>Comunidad Autónoma en la que vives:<select name="lista_seleccion">
 
                     <option value="cat">Cataluña</option>
                     <option value="gal">Galicia</option>
@@ -56,7 +56,7 @@
                 </select>
             </label><br><br>
             <label>Nº de teléfono: <input type="text" name="Codigopostal"></label>
-            <label>Edad: <input type="text" name="Edad"></label>
+            <label>Edad: <input type="number" name="Edad"></label>
             <label>Sexo:</label><select name="lista_seleccion">
 
                 <option value="Hombre">Hombre</option>
@@ -70,9 +70,9 @@
         </fieldset>
         <fieldset>
             <legend>Clases presenciales</legend>
-            <label>Municipio/Ciudad en el que vive: <input type="text" name="usuario"></label><br><br>
+            <label>Municipio/Ciudad en el que vive: <input type="text" name="usuario"></label><br>
             <label>Dirección: <input type="text" name="Direccion"></label>
-            <label>Código postal: <input type="text" name="Codigopostal"></label><br>
+            <label>Código postal: <input type="number" name="Codigopostal"></label><br>
             <label>Observaciones:<br><textarea name="area_texto" rows="5"
                     cols="100">¿Algo que deba saber? (Si quieres contactarme para fotografía decir aquí)</textarea></label>
 
